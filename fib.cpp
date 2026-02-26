@@ -2,6 +2,7 @@
 // optimal substructure
 
 // memoization : store the results of the subproblems in a hash map or an array and return the stored result when the same subproblem is encountered again
+// tabulation : store the results of the subproblems in a table and fill the table in a bottom-up manner
 #include <iostream>
 #include<vector>
 using namespace std;
