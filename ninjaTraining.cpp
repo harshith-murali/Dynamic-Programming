@@ -1,7 +1,8 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-
+// TC: O(N*4*3) where N is the number of days, 4 is for the last activity and 3 is for the tasks
+// SC: O(4) for the prev vector -> space optimized to O(1) since we are using only a fixed size vector
 // Function to find the maximum points for ninja training
 int ninjaTraining(int n, vector<vector<int>>& points) {
   // Initialize a vector to store the maximum points for the previous day's activities
