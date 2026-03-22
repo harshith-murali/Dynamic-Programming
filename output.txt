@@ -1,2 +1,1 @@
-Enter rows and columns: Enter grid values:
-Minimum Falling Path Sum: 13
+5
