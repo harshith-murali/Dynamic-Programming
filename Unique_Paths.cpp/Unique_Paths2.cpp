@@ -35,3 +35,6 @@ int main() {
 
     return 0;
 }
+
+// Time Complexity: O(n*m)
+// Space Complexity: O(n*m) -> can be optimized to O(m) similar to tabulation and space optimization approach of unique paths problem without obstacles.
