@@ -1,0 +1,2 @@
+Enter number of days: Enter points for 3 tasks each day:
+Maximum Points: 210
