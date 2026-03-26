@@ -14,7 +14,7 @@ public:
         }
 
         for(int i = 1; i < n; i++){
-            vector<int> curr(n);  // ✅ FIX
+            vector<int> curr(n);  
 
             for(int j = 0; j < n; j++){
                 int up = matrix[i][j] + prev[j];
