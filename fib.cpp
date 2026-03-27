@@ -14,6 +14,7 @@ int fib(int n, vector<int>& dp){
 int main(){
     int n;
     cin>>n;
+    cout<<"Fibonacci of "<<n<<" is: ";
     vector<int> dp(n+1, -1);
     vector<int> dpTab(n+1);
     dpTab[0] = 0;
